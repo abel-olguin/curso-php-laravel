@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.input {
+    @apply shadow-md rounded px-2 py-2 outline-0 border border-gray-400
+}
+
+.btn-default {
+    @apply bg-cyan-700 rounded text-center text-white py-3 shadow hover:shadow-lg
+}
